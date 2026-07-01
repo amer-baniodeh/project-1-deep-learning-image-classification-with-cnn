@@ -1,2 +1,3 @@
 Model,Architecture,Learning Rate,Train Time,Accuracy,Notes
 Model 1,2 Conv layers,0.01,5 min,46%,Baseline - start here
+Model 2,3 conv layers,0.0x,x min,xx%,VGG 
