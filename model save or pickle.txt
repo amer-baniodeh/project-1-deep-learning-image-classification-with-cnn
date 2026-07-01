@@ -1,0 +1,78 @@
+Although you **can** use `pickle` to save a Keras model, it is **not recommended** because TensorFlow/Keras models are not fully pickle-compatible. The recommended method is to use `model.save()`.
+
+However, if your assignment specifically requires **pickle**, here is how to do it.
+
+### Step 1: Mount Google Drive
+
+```python
+from google.colab import drive
+
+drive.mount('/content/drive')
+```
+
+---
+
+### Step 2: Create a folder on Google Drive
+
+```python
+import os
+
+save_folder = "/content/drive/MyDrive/Models"
+os.makedirs(save_folder, exist_ok=True)
+```
+
+---
+
+### Step 3: Save the model using pickle
+
+```python
+import pickle
+
+model_path = os.path.join(save_folder, "cnn_model.pkl")
+
+with open(model_path, "wb") as f:
+    pickle.dump(model, f)
+
+print("Model saved to:", model_path)
+```
+
+If your model is named `model_deep` instead of `model`, use:
+
+```python
+with open(model_path, "wb") as f:
+    pickle.dump(model_deep, f)
+```
+
+---
+
+### Step 4: Load the model later
+
+```python
+with open(model_path, "rb") as f:
+    loaded_model = pickle.load(f)
+
+print("Model loaded successfully!")
+```
+
+---
+
+## Recommended method (TensorFlow/Keras)
+
+For Keras models, use the built-in save/load functions instead:
+
+```python
+model.save("/content/drive/MyDrive/Models/cnn_model.keras")
+```
+
+Load it later with:
+
+```python
+from tensorflow.keras.models import load_model
+
+loaded_model = load_model("/content/drive/MyDrive/Models/cnn_model.keras")
+```
+
+### Which should you use?
+
+* **Use `model.save()` / `load_model()`** if you want to save and reload the entire neural network (architecture, weights, and optimizer state). This is the standard and most reliable approach.
+* **Use `pickle`** only if your instructor specifically requires it or if you're saving ordinary Python objects (e.g., preprocessing parameters or custom metadata) rather than TensorFlow/Keras models.
