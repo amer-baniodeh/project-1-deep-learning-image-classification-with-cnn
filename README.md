@@ -3,7 +3,7 @@
 
 ---
 
-latest model can be tested here: https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
+latest model can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
 
 ---
 
