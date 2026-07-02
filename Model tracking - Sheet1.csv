@@ -3,4 +3,4 @@ Model 1,2 Dense layers,0.01,5 min,46%,Baseline model - optimizer=SGD
 Model 2,4 conv layers (2 Conv + 2 Dense),0.01,41s GPU,58%,VGG 
 Model 3,3 layers (1 Conv + 2 Dense configuration),0.01,x min,53%, ONE CHANGE from baseline: Extract spatial features before flattening -> added 1 conv layer 
 Model 4,4 layers (2 Conv + 2 Dense),0.01,1 min GPU,14%,VGG + Data Augmentation -> brightness & contrast
-Model 7,4 layers (2 Conv + 2 Dense)+2 dropout,0.01,2 mins GPU,56%,+ 100 Epoch & patience=5, restore_best_weights=True , 2 dropout (0.25 , 0.5)
+Model 7,4 layers (2 Conv + 2 Dense)+2 dropout,0.01,2 mins GPU,56%, Model 2 + 100 Epoch & patience=5 & restore_best_weights=True and 2 dropout (0.25 , 0.5)
