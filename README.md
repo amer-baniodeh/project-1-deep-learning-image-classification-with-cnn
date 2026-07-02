@@ -1,6 +1,9 @@
 # project-1-deep-learning 
 ## image-classification-with-cnn
 
+---
+
+latest model can be tested here: https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
 
 ---
 
