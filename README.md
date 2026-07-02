@@ -20,9 +20,15 @@ latest model can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/
 
 **CSV to Markdown Converter** (https://formatarc.com/en/csv-to-markdown/)
 
-
+<br>
 
 ---
+
+---
+
+## Day 1
+
+<br>
 
 \* The **VGG (Visual Geometry Group)** model is a classic, highly influential Convolutional Neural Network (CNN) architecture known for its elegant simplicity, uniform layer structure, and maximum depth. Developed by Oxford University researchers, it is widely used as a baseline for image classification and feature extraction.
 
@@ -38,5 +44,29 @@ https://www.geeksforgeeks.org/computer-vision/vgg-net-architecture-explained/
 
 ---
 
+---
+
+## Day 2
+
+<br>
+
+model 4
+- Data Augmentation
+
+model 5
+- Transfer Learning
+
+<br>
 
 ---
+
+---
+
+<br>
+
+---
+
+---
+
+
+
