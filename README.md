@@ -160,6 +160,10 @@ jupyter notebook model_9.ipynb
 
 ```
 
+### 4. Dataset CIFAR-10
+
+Notice: we opted to download the dataset to our Google Drive, in order to save time when running the notebook in Google Colab. For this you will need to mount Google Drive on your Colab notebook.
+
 ---
 
 ## Project Structure
