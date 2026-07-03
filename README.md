@@ -127,6 +127,13 @@ The training strategy was executed in two successive blocks (Classification Head
   <td><img src="/images/CNN_Confusion_matrix.png" height="420" alt="CNN_Confusion_matrix"></td>
 </table>
 </center>
+
+<br>
+
+<img src="/images/Final_Test_set_metrics.jpg" height="420" alt="Final_Test_set_metrics">
+
+<br>
+
 ---
 
 ## Setup & Installation
