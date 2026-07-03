@@ -1,6 +1,6 @@
 
 # Project-1 - Image Classification CNN
-##  with Transfer Learning using MobileNetV2, Image Resizing to 96x96, Data Augmentation and Image upscaling
+##  Final model 9 using Transfer Learning using MobileNetV2, Image Resizing to 96x96, Data Augmentation and Image upscaling
 
 ## About
 
