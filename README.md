@@ -10,8 +10,8 @@ A high-performance image classification pipeline that solves the classic object 
 
 <center>
 <table>
-  <td><img src="/images/Horsepred.jpg" height="350" alt="Horse prediction"></td>
-  <td><img src="/images/Dookie.jpg" height="350" alt="Dookie prediction"></td>
+  <td><img src="/images/Horsepred.jpg" height="420" alt="Horse prediction"></td>
+  <td><img src="/images/Dookie.jpg" height="420" alt="Dookie prediction"></td>
 </table>
 </center>
 
@@ -22,7 +22,7 @@ A high-performance image classification pipeline that solves the classic object 
   - the best performing model was deployed on Hugging Face Spaces using a Docker template for Streamlit
   - and can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
 
-<img src="/images/HFspacesStreamlit.jpg" height="450" alt="Deployed on HFspaces Streamlit">
+<img src="/images/HFspacesStreamlit.jpg" height="520" alt="Deployed on HFspaces Streamlit">
 
 <br>
 
