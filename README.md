@@ -13,7 +13,7 @@ A high-performance image classification pipeline that solves the classic object 
 
 > **Deployment URL:** 
 
-https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
+the best performing model can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
 
 ---
 
