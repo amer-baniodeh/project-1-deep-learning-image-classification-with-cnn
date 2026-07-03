@@ -11,6 +11,7 @@ A high-performance image classification pipeline that solves the classic object 
 <center>
 <table>
   <td><img src="/images/Horsepred.jpg" height="420" alt="Horse prediction"></td>
+  <td> &nbsp &nbsp </td>
   <td><img src="/images/Dookie.jpg" height="420" alt="Dookie prediction"></td>
 </table>
 </center>
