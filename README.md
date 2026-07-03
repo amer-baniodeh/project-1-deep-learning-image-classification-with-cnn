@@ -191,7 +191,7 @@ jupyter notebook model_9.ipynb
 
 * **Hyperparameter Optimization:** Conduct Grid/Random search optimizations on dropout frequencies ($0.2$ to $0.5$) and hidden nodes inside the structural dense layers.
 * **Learning Rate Schedulers:** Transition from static learning updates to cosine annealing decay strategies (`CosineDecay`) to safely navigate local loss minima.
-* **Advanced Architectures:** Evaluate alternative state-of-the-art backbones such as **EfficientNetB0 ( tried and got 90%)** or ConvNeXt to further push classification benchmarks past $95\%$.
+* **Advanced Architectures:** Evaluate alternative state-of-the-art backbones such as **EfficientNetB0 ( tried and got 90% on model 10)** or ConvNeXt to further push classification benchmarks past $95\%$.
 
 ---
 
