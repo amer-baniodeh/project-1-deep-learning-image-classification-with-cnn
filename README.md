@@ -17,7 +17,7 @@ A high-performance image classification pipeline that solves the classic object 
   - the best performing model was deployed on Hugging Face Spaces using a Docker template for Streamlit
   - and can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
 
-<img src="/images/hfsproj1_cnnpred.jpg" alt="https://huggingface.co/spaces/AntonioTrx99/project1_streamlit">
+<img src="/images/Dookie.jpg" alt="https://huggingface.co/spaces/AntonioTrx99/project1_streamlit">
 
 <br>
 
