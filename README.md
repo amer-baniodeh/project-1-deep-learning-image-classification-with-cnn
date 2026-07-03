@@ -6,14 +6,20 @@
 
 A high-performance image classification pipeline that solves the classic object detection and categorization problem using deep convolutional neural networks. This project utilizes deep transfer learning with a pre-trained **MobileNetV2** base architecture combined with customized image upscaling, data augmentation pipelines, and progressive classification head tuning to perform multi-class recognition on small-resolution imagery.
 
-## Sample Predictions
+- ## Sample Predictions
 
 *(Add a screenshot or a GIF here from your portfolio directory to demonstrate your model's classification accuracy in action!)*
 
+<br>
 
-> **Deployment URL:** 
+- ## **Deployment URL:** 
 
-the best performing model can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
+  - the best performing model was deployed on Hugging Face Spaces using a Docker template for Streamlit
+  - and can be tested here:🚀 https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
+
+<img src="/images/hfsproj1_cnnpred.jpg" alt="https://huggingface.co/spaces/AntonioTrx99/project1_streamlit">
+
+<br>
 
 ---
 
