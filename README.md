@@ -177,7 +177,7 @@ Notice: we opted to download the dataset to our Google Drive, in order to save t
 │   ├── confusion_matrix.png
 │   ├── curves.png
 │   └── sample_predictions.png
-└── saved_models/            # Destination for serialized checkpoints (.keras output)
+└── models/            # Destination for serialized checkpoints (.keras output)
     └── model_9.keras
 
 ```
