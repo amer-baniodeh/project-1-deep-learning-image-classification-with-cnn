@@ -1,6 +1,6 @@
 
 # Project-1 - Image Classification CNN
-##  Final model 9 using Transfer Learning using MobileNetV2, Image Resizing to 96x96, Data Augmentation and Image upscaling
+##  Final model 9 using Transfer Learning using MobileNetV2, Image Resizing to 96x96 and Data Augmentation.
 
 ## About
 
@@ -40,7 +40,8 @@ The goal of this project is to build an accurate deep learning classifier capabl
 
 - this table shows the trial and tribulations necessary to reach an optimal working prediction model.
 - starting with a baseline model with 2 layers until reaching a model with 8 layers using Transfer Learning, Data Augmentation and Image Upscaling.
-- biggest jump in accuracy was after resizing the images from (32,32) to (96,96)
+- biggest jump in accuracy was after resizing the images from (32,32) to (96,96) with MobileNetV2.
+- finally, We tried Transfer Learning with EfficientNetB0, but didnt show better results than MobileNetV2.
 
 | Model | Architecture | Learning Rate | Train Time | Accuracy | Notes |
 | --- | --- | --- | --- | --- | --- |
