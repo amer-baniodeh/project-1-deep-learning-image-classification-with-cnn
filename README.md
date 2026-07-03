@@ -174,9 +174,9 @@ Notice: we opted to download the dataset to our Google Drive, in order to save t
 ├── requirements.txt         # Project dependencies and explicit package versions
 ├── README.md                # Project documentation and performance summary
 ├── images/                  # Stored confusion matrices, performance plots, and prediction samples
-│   ├── confusion_matrix.png
-│   ├── curves.png
-│   └── sample_predictions.png
+│   ├── CNN_Confusion_matrix.png
+│   ├── Loss_Accuracy_Graphs.png
+│   └── Horsepred.jpg
 └── models/            # Destination for serialized checkpoints (.keras output)
     └── model_9.keras
 
