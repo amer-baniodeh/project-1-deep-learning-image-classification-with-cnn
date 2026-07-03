@@ -40,6 +40,7 @@ The goal of this project is to build an accurate deep learning classifier capabl
 
 - this table shows the trial and tribulations necessary to reach an optimal working prediction model.
 - starting with a baseline model with 2 layers until reaching a model with 8 layers using Transfer Learning, Data Augmentation and Image Upscaling.
+- biggest jump in accuracy was after resizing the images from (32,32) to (96,96)
 
 | Model | Architecture | Learning Rate | Train Time | Accuracy | Notes |
 | --- | --- | --- | --- | --- | --- |
