@@ -37,6 +37,10 @@ The goal of this project is to build an accurate deep learning classifier capabl
 
 
 ## MODEL TRACKING SPREADSHEET
+
+- this table shows the trial and tribulations necessary to reach an optimal working prediction model.
+- starting with a baseline model with 2 layers until reaching a model with 8 layers using Transfer Learning, Data Augmentation and Image Upscaling.
+
 | Model | Architecture | Learning Rate | Train Time | Accuracy | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Model 1 | 2 Dense layers | 0.01 | 5 min | 46% | Baseline model - optimizer=SGD |
