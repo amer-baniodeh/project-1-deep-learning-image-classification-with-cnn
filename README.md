@@ -1,5 +1,6 @@
 
-# Project-1: Image Classification with Transfer Learning using MobileNetV2
+# Project-1 - Image Classification CNN
+##  with Transfer Learning using MobileNetV2, Image Resizing to 96x96, Data Augmentation and Image upscaling
 
 ## About
 
@@ -19,6 +20,29 @@ https://huggingface.co/spaces/AntonioTrx99/project1_streamlit
 ## Problem Statement
 
 The goal of this project is to build an accurate deep learning classifier capable of correctly categorizing low-resolution ($32 \times 32 \times 3$) objects into one of ten unique real-world classes. Low-resolution images present a significant challenge for modern deep state-of-the-art architectures (like MobileNetV2) because spatial dimensions shrink too quickly across convolutional layers. This project overcomes that structural limitation by introducing a robust preprocessing pipeline featuring bilinear interpolation upscaling, synthetic data generation, and partial layer unfreezing.
+
+<br>
+
+
+## MODEL TRACKING SPREADSHEET
+| Model | Architecture | Learning Rate | Train Time | Accuracy | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Model 1 | 2 Dense layers | 0.01 | 5 min | 46% | Baseline model - optimizer=SGD |
+| Model 2 | 4 conv layers (2 Conv + 2 Dense) | 0.01 | 41s GPU | 58% | VGG |
+| Model 3 | 3 layers (1 Conv + 2 Dense configuration) | 0.01 | 1 min | 53% | ONE CHANGE from baseline: Extract spatial features before flattening -> added 1 conv layer |
+| Model 4 | 4 layers (2 Conv + 2 Dense) | 0.01 | 1 min GPU | 14% | VGG + Data Augmentation -> brightness & contrast |
+| Model 5 | 7 layers | 1.00E-03 | 4 min GPU | 32,5% | Transfer Learning with MobileNetV2 no resize images (32,32) |
+| Model 6 | 7 layers | 1.00E-03 | 6 min GPU | 90,1% | Transfer Learning with MobileNetV2 resize images (96,96) |
+| Model 7 | 4 layers (2 Conv + 2 Dense)+2 dropout | 0.01 | 2 mins GPU | 56% | Model 2 + 100 Epoch & patience=5 & restore_best_weights=True and 2 dropout (0.25 & 0.5) |
+| Model 8 | 13 layers (4 x Conv2D + 4 x BatchNormalization + 2 x MaxPooling2D + 2 x Dropout + 1 x Flatten +2 x Dense) | 0.01 | 1 min GPU | 78% | Optimiser = Adam & more layers |
+| Model 9 | 8 layers | 1.00E-05 | 19 min GPU | 94,5% | TL MNV2 with Data Augmentation + Upscaling |
+| Model 10 | 7 layers | 0.01-1.00E-06 | 15 min GPU | 90,9% | TL with EfficientNetB0 + Data Aug + Upscaling, Fine Tuning + Adv Learning Rate Scheduler, change to Flatten, higher Dropout and Wider Dense 256 |
+
+
+
+<br>
+
+
 
 ---
 
